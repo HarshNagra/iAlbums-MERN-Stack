@@ -1,0 +1,201 @@
+/* Login Page */
+#wrapper {
+  width: 99.5%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  border: #282c34;
+  border-style: solid;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+ padding-left: 20%;
+}
+
+form {
+  display: inline;
+  margin: 0;
+  vertical-align: middle;
+  padding-top: 2%;
+  padding-right: 5%;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color:  cadetblue;
+}
+
+.button {
+  
+  border: none;
+ 
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: cadetblue;
+  color: black;
+  border: 2px solid #555555;
+  
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#wrapper2{
+  width: 100%;
+  height: 600px;
+}
+
+#displayFriends{
+  float: left;
+  width: 20%;
+  background-color: rgb(185, 203, 204);
+  height: 600px;
+  border: #282c34;
+  border-style: solid;
+}
+
+#displayAlbums{
+  float: right;
+  width: 79%;
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  border: #282c34;
+  border-style: solid;
+  position: relative;
+  overflow: scroll;
+}
+
+/* tr{
+  width: 100%;
+  background-color: #555555;
+} */
+
+/* #rows{
+  width:100%
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+} */
+
+
+/* try */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color:rgb(185, 203, 204);
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+img {
+  
+  height: 200px;
+  width: 230px;
+  float: right;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  /* background-color: cornflowerblue; */
+  float: left;
+  width: 22%;
+  padding: 5px;
+  overflow: hidden;
+  height: 250px;
+}
+
+input[type=button]{
+  float: right;
+}
+
+p{
+  padding: 10px;
+
+}
+
+
+
+/* Clear floats after image containers */
+/* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+#upload{
+  float: right;
+  position:absolute;
+  bottom:10px;
+  right:20px;
+}
+
+/* Predefined */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
